@@ -1,4 +1,5 @@
 "use client"
+import React from "react";
 import { useState } from "react";
 import InputForm from "./components/resume_builder/Inputform";
 import ResumeData from "./components/resume_builder/Interface";
@@ -24,7 +25,7 @@ export default function Home() {
 
     return (
         <>  
-        <div className="container mx-auto p-4 bg-white">
+        <div className="container mx-auto p-4 bg-white text-black">
 
          <h1 className="text-3xl font-bold text-center mb-8 text-black">Resume Builder</h1>
             <Template/>           

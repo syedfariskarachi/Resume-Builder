@@ -1,4 +1,3 @@
-"use client";
 import { useRef, useState } from "react";
 import Image from "next/image";
 import html2pdf from "html2pdf.js";
